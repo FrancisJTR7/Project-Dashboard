@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.skel {
+  display: grid;
+  grid-template-rows: repeat(5, 180px);
+  grid-template-columns: repeat(5, 20%);
+  background-color: #e2e8f0;
+}
+
+.dashboard {
+  display: grid;
+  background-color: #1992d4;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  grid-column: 1;
+  border: 1px;
+  color: white;
+}
+
+.navbar {
+  background-color: white;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+#first,
+#sec {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+}
+
+#dfirst {
+  display: grid;
+  grid-template-rows: repeat(6, 30px);
+  gap: 3px;
+}
+
+#dsec {
+  display: grid;
+}
